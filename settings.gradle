@@ -1,2 +1,4 @@
 rootProject.name = 'backontrack'
+include 'kodilla-testing'
+include 'initial-basic-course'
 

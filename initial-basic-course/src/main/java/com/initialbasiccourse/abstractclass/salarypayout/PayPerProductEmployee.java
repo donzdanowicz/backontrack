@@ -1,4 +1,4 @@
-package org.getbackcourse.abstractclass.salarypayout;
+package com.initialbasiccourse.abstractclass.salarypayout;
 
 public class PayPerProductEmployee implements Employee {
     double payPerProduct;

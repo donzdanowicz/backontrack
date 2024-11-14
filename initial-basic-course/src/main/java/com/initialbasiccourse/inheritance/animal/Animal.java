@@ -1,8 +1,8 @@
-package org.getbackcourse.inheritance.animal;
+package com.initialbasiccourse.inheritance.animal;
 
 public class Animal {
-    private String name;
-    private String color;
+    private final String name;
+    private final String color;
 
     public Animal(String name, String color) {
         this.name = name;
@@ -22,6 +22,6 @@ public class Animal {
     }
 
     public String getColor() {
-        return this.color;
+        return color;
     }
 }

@@ -1,4 +1,4 @@
-package org.getbackcourse.abstractclass.banktransaction;
+package com.initialbasiccourse.abstractclass.banktransaction;
 
 
 public class Application {

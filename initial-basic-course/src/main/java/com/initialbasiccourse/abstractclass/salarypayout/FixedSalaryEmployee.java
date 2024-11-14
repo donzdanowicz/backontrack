@@ -1,4 +1,4 @@
-package org.getbackcourse.abstractclass.salarypayout;
+package com.initialbasiccourse.abstractclass.salarypayout;
 
 public class FixedSalaryEmployee implements Employee {
     private final double salary;

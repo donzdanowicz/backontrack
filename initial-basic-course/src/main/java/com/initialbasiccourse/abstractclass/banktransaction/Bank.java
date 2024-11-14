@@ -1,4 +1,4 @@
-package org.getbackcourse.abstractclass.banktransaction;
+package com.initialbasiccourse.abstractclass.banktransaction;
 
 public abstract class Bank {
     abstract protected void enterCard();

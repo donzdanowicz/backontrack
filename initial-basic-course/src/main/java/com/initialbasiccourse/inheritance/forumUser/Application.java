@@ -1,6 +1,4 @@
-package org.getbackcourse.inheritance.forumUser;
-
-import java.sql.SQLOutput;
+package com.initialbasiccourse.inheritance.forumUser;
 
 public class Application {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.getbackcourse.inheritance.forumUser;
+package com.initialbasiccourse.inheritance.forumUser;
 
 public abstract class User {
     private String name;

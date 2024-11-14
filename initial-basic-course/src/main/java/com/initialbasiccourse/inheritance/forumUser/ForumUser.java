@@ -1,4 +1,4 @@
-package org.getbackcourse.inheritance.forumUser;
+package com.initialbasiccourse.inheritance.forumUser;
 
 import java.util.ArrayList;
 import java.util.List;

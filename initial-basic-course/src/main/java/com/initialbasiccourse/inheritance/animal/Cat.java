@@ -1,7 +1,7 @@
-package org.getbackcourse.inheritance.animal;
+package com.initialbasiccourse.inheritance.animal;
 
 public class Cat extends Animal{
-    private String meow;
+    private final String meow;
 
     public Cat(String name, String color, String meow) {
         super(name, color);
