@@ -2,7 +2,7 @@ package com.backontrack.testing.user;
 
 public class SimpleUserTest {
     public static void main(String[] args) {
-        SimpleUser simpleUser = new SimpleUser("theForumUser");
+        SimpleUser simpleUser = new SimpleUser("theForumUser", "John Locke");
         String result = simpleUser.getUsername();
 
         if (result.equals("theForumUser")) {
