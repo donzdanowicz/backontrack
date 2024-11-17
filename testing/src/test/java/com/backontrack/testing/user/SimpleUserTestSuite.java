@@ -1,11 +1,10 @@
-package com.backontrack.testing.forum;
+package com.backontrack.testing.user;
 
-import com.backontrack.testing.user.SimpleUser;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ForumTestSuite {
+public class SimpleUserTestSuite {
 
     @BeforeEach
     public void before() {
