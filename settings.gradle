@@ -1,4 +1,5 @@
 rootProject.name = 'backontrack'
 include 'initial-basic-course'
 include 'testing'
+include 'stream'
 
