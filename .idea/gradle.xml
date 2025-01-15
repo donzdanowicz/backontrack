@@ -10,7 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/exception" />
             <option value="$PROJECT_DIR$/initial-basic-course" />
+            <option value="$PROJECT_DIR$/rps" />
             <option value="$PROJECT_DIR$/stream" />
             <option value="$PROJECT_DIR$/testing" />
           </set>
