@@ -10,6 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/blackjack" />
+            <option value="$PROJECT_DIR$/dots" />
             <option value="$PROJECT_DIR$/exception" />
             <option value="$PROJECT_DIR$/initial-basic-course" />
             <option value="$PROJECT_DIR$/rps" />

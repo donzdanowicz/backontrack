@@ -4,4 +4,6 @@ include 'testing'
 include 'stream'
 include 'rps'
 include 'exception'
+include 'dots'
+include 'blackjack'
 
