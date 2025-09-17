@@ -15,7 +15,7 @@ public class OrdersProcessor {
     }
 
     public void printOrders() {
-        for(Map.Entry entry: orderMap.entrySet()) {
+        for(Map.Entry<Integer, Order> entry: orderMap.entrySet()) {
             System.out.printf("\nOrder #%s: %s%n", entry.getKey(), entry.getValue());
         }
     }
