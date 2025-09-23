@@ -5,6 +5,7 @@ public class Hand {
     }
 
     public int evaluateHand() {
+        return 0;
     }
 
     public void addCard(Card card) {
