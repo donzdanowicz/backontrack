@@ -1,0 +1,8 @@
+package com.backontrack.patterns.strategy.social;
+
+public class FacebookPublisher implements SocialPublisher {
+    @Override
+    public String share() {
+        return "I use Facebook.";
+    }
+}

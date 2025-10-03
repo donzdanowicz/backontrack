@@ -1,0 +1,5 @@
+package com.backontrack.patterns.strategy.social;
+
+public interface SocialPublisher {
+    String share();
+}
