@@ -6,4 +6,7 @@ include 'rps'
 include 'exception'
 include 'dots'
 include 'blackjack'
-
+include 'good-patterns'
+include 'patterns'
+include 'jdbc'
+include 'hibernate'
