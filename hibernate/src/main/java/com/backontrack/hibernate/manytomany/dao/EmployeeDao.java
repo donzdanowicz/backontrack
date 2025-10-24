@@ -1,9 +1,7 @@
 package com.backontrack.hibernate.manytomany.dao;
 
-import com.backontrack.hibernate.manytomany.Company;
 import com.backontrack.hibernate.manytomany.Employee;
 import jakarta.transaction.Transactional;
-import org.springframework.data.jpa.repository.NativeQuery;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
@@ -11,10 +9,10 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 @Transactional
-public interface CompanyDao extends CrudRepository<Company,Integer> {
+@Repository
+public interface EmployeeDao extends CrudRepository<Employee, Integer> {
 
-    @NativeQuery
-    List<Company> retrieveCompaniesMatchingThreeFirstChars(@Param("THREE_CHARS") String threeChars);
+    @Query
+    List<Employee> retrieveEmployeesByLastname(@Param("LASTNAME") String lastname);
 }
